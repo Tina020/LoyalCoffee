@@ -17,7 +17,7 @@ border-color: #b62f26;
 .second img{
   height: 100px;
   width: 100px;
-  
+
 }
 .third a{
   color: white
@@ -30,4 +30,11 @@ border-color: #b62f26;
 }
 body {
   text-align: center;
+}
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+table, th, td {
+    border: 1px solid black;
 }
