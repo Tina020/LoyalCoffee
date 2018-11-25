@@ -8,9 +8,26 @@ border-color: #314776;
 }
 .btn-instagram {
 background: #FF1493;
-border-color: #314776;
+border-color: #C71585;
 }
 .btn-pinterest {
 background: #b62f26;
 border-color: #b62f26;
+}
+.second img{
+  height: 100px;
+  width: 100px;
+  
+}
+.third a{
+  color: white
+}
+.third {
+  padding-bottom: 10px;
+}
+.jumbotron {
+  padding-top: 10px;
+}
+body {
+  text-align: center;
 }
