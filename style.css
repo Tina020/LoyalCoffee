@@ -38,3 +38,7 @@ table {
 table, th, td {
     border: 1px solid black;
 }
+.points img{
+  height: 50px;
+   width: 50px;
+}
