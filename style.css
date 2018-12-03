@@ -41,6 +41,7 @@ body {
 #dropdownMenu1 {
   font-size: 1.25em;
 }
+<<<<<<< HEAD
 =======
 
 table, th, td {
@@ -48,6 +49,7 @@ table, th, td {
     text-align: center;
 }
 .table img{
+  height: 60px;
    width: 60px;
 >>>>>>> 558df3410d45420d75559e42e4ad232bfd7b22d1
 }
