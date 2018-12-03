@@ -7,20 +7,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="bootstrap.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
 </head>
 
   <body>
-    <div>
-      <input id="button" type="button" value="Home">
-      <input id="button" type="button" value="Partners">
-      <a href="login.html">
-      <input id="button" type="button" value="Login">
-    </a>
+
+    <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle" type="button"
+        id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <i class="fas fa-stroopwafel"></i> Menu
+          <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#">Partners</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
     </div>
 
 
     <div class='first'>
-      <div class='jumbotron'>
+      <div class='jumbotron' id="home">
         <div class='container'>
           <h1>LoyalCoffee</h1>
           <h2>Loyalty card in one place for the coffee lovers</h2>
@@ -40,7 +54,7 @@
             <div class='row'>
                 <div class='col-sm-4'>
                   <h2>Step 1</h2>
-                  <img src="CoffeeShop.png"
+                  <img src="images/CoffeeShop.png"
                   alt="Coffee shop icon">
                   <p>Go to your favourite coffee shop</p>
                 </div>
@@ -78,6 +92,7 @@
         </a>
       </div>
    </div>
+
   </body>
 
 </html>
