@@ -46,7 +46,21 @@ table, th, td {
     border: 1px solid black;
     text-align: center;
 }
-.table img{
+
+.table {
+  width: auto;
+  margin: 0 auto 20px;
+}
+
+.table tbody tr td {
+  vertical-align: middle
+}
+
+.table img {
+  max-width: 60px
+}
+
+.table img.coffee {
    width: 60px;
    height: 60px;
 }
