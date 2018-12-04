@@ -23,6 +23,11 @@ border-color: #b62f26;
   height: 20px;
   width: 20px;
 }
+
+.first {
+  margin-top: 40px;
+}
+
 .second img{
   height: 100px;
   width: 100px;
@@ -50,7 +55,8 @@ body {
 }
 
 .dropdown {
-  position: absolute;
+  position: fixed;
+  top:0;
   right: 0;
 }
 #dropdownMenu1 {
