@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Pirmokas;
+  src: url('./fonts/Pirmokas.ttf');
+}
+
 .btn-twitter {
 background: #00acee;
 border-color: #009ad5;
@@ -63,4 +68,9 @@ table, th, td {
 .table img.coffee {
    width: 60px;
    height: 60px;
+}
+h1 {
+  font-family: Pirmokas;
+  font-size: 60px;
+  letter-spacing: 5px;
 }
