@@ -53,3 +53,12 @@ table, th, td {
    width: 60px;
 >>>>>>> 558df3410d45420d75559e42e4ad232bfd7b22d1
 }
+#home {
+  background-color: grey;
+}
+h1 {
+  font-family: 'Satisfy', cursive;
+}
+body {
+  font-family: 'Satisfy', cursive;
+}
