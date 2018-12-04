@@ -41,7 +41,6 @@ body {
 #dropdownMenu1 {
   font-size: 1.25em;
 }
-=======
 
 table, th, td {
     border: 1px solid black;
@@ -49,5 +48,5 @@ table, th, td {
 }
 .table img{
    width: 60px;
->>>>>>> 558df3410d45420d75559e42e4ad232bfd7b22d1
+   height: 60px;
 }
