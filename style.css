@@ -27,11 +27,18 @@ border-color: #b62f26;
 }
 .third {
   padding-bottom: 10px;
+  color: white;
 }
 .jumbotron {
   padding-top: 10px;
+  height: 400px;
+  width: ;
+  opacity: 0.4;
+  color: black;
 }
 body {
+  font-family: 'Satisfy', cursive;
+  background: url("images/coffeeshop.jpg");
   text-align: center;
 }
 .dropdown {
@@ -41,6 +48,23 @@ body {
 #dropdownMenu1 {
   font-size: 1.25em;
 }
+#home {
+  background-size: max-height: 100%;
+
+}
+.first label{
+  font-size: 30px;
+  padding-top: 100px;
+
+}
+.first h1{
+  padding-bottom: 20px;
+}
+.second p{
+  padding: 20px;
+}
+
+
 <<<<<<< HEAD
 =======
 
@@ -52,13 +76,4 @@ table, th, td {
   height: 60px;
    width: 60px;
 >>>>>>> 558df3410d45420d75559e42e4ad232bfd7b22d1
-}
-#home {
-  background-color: grey;
-}
-h1 {
-  font-family: 'Satisfy', cursive;
-}
-body {
-  font-family: 'Satisfy', cursive;
 }
