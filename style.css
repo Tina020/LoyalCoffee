@@ -28,6 +28,12 @@ border-color: #b62f26;
   margin-top: 40px;
 }
 
+@media (min-width: 768px) {
+  .first .form-inline .form-control {
+      width: 300px;
+  }
+}
+
 .second img{
   height: 100px;
   width: 100px;
@@ -95,4 +101,9 @@ h1 {
   height: auto;
   width: 170px;
   margin-top: 40px;
+}
+
+#LClogo{
+  height: 120px;
+  width: 80px;
 }
