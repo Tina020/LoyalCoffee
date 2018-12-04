@@ -38,7 +38,17 @@ border-color: #b62f26;
 }
 body {
   text-align: center;
+  background:#eee;
 }
+
+.container {
+  background: white;
+  margin: 0 auto 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius:10px;
+}
+
 .dropdown {
   position: absolute;
   right: 0;
@@ -73,4 +83,10 @@ h1 {
   font-family: Pirmokas;
   font-size: 60px;
   letter-spacing: 5px;
+}
+
+.monmouth img {
+  height: auto;
+  width: 170px;
+  margin-top: 40px;
 }
