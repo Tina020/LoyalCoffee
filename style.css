@@ -2,7 +2,6 @@
   font-family: Pirmokas;
   src: url('./fonts/Pirmokas.ttf');
 }
-
 .btn-twitter {
 background: #00acee;
 border-color: #009ad5;
@@ -23,17 +22,14 @@ border-color: #b62f26;
   height: 20px;
   width: 20px;
 }
-
 .first {
   margin-top: 40px;
 }
-
 @media (min-width: 768px) {
   .first .form-inline .form-control {
       width: 300px;
   }
 }
-
 .second img{
   height: 100px;
   width: 100px;
@@ -43,24 +39,16 @@ border-color: #b62f26;
 }
 .third {
   padding-bottom: 10px;
-  color: white;
 }
 .jumbotron {
   padding-top: 10px;
-  height: 400px;
-  width: ;
-  opacity: 0.4;
-  color: black;
 }
 body {
-  font-family: 'Satisfy', cursive;
-  background: url("images/coffeeshop.jpg");
   text-align: center;
   background:#eee;
   background-image:url('coffeeshop.jpg');
   background-size:cover;
 }
-
 .container {
   background: rgba(255,255,255,0.9);
   margin: 20px auto 20px;
@@ -68,7 +56,6 @@ body {
   border: 1px solid #ddd;
   border-radius:10px;
 }
-
 .dropdown {
   position: fixed;
   top:0;
@@ -77,52 +64,20 @@ body {
 #dropdownMenu1 {
   font-size: 1.25em;
 }
-<<<<<<< HEAD
-#home {
-  background-size: max-height: 100%;
-
-}
-.first label{
-  font-size: 30px;
-  padding-top: 100px;
-
-}
-.first h1{
-  padding-bottom: 20px;
-}
-.second p{
-  padding: 20px;
-}
-
-
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 819c564474240e1c13bb46e14e398279a209a850
-
 table, th, td {
     text-align: center;
 }
-<<<<<<< HEAD
-.table img{
-  height: 60px;
-=======
-
 .table {
   width: auto;
   margin: 0 auto 20px;
 }
-
 .table tbody tr td {
   vertical-align: middle
 }
-
 .table img {
   max-width: 60px
 }
-
 .table img.coffee {
->>>>>>> 819c564474240e1c13bb46e14e398279a209a850
    width: 60px;
    height: 60px;
 }
@@ -131,13 +86,11 @@ h1 {
   font-size: 60px;
   letter-spacing: 5px;
 }
-
 .monmouth img {
   height: auto;
   width: 170px;
   margin-top: 40px;
 }
-
 #LClogo{
   height: 120px;
   width: 80px;
