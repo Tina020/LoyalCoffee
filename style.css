@@ -34,8 +34,11 @@ border-color: #b62f26;
   height: 100px;
   width: 100px;
 }
+.first a{
+  color: grey;
+}
 .third a{
-  color: white
+  color: white;
 }
 .third {
   padding-bottom: 10px;
