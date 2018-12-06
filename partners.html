@@ -13,7 +13,10 @@
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2jlHx0Cf_mIGMvE0NNw3r-to5-nLofIA&callback=initMap"
+  async defer></script>
 </head>
+
 <body>
   <div class="dropdown">
     <button class="btn btn-default dropdown-toggle" type="button"
@@ -61,5 +64,31 @@
     </div>
   </div>
 </div>
+
+<div class='container'>
+  <div id="map"></div>
+</div>
+
+  <script>
+    function initMap() {
+    var BlackSheepCoffee = {
+      lat: 51.503056,
+      lng: -0.018499
+    };
+
+    var mapElement = document.getElementById('map');
+
+    var map = new google.maps.Map(mapElement, {
+      zoom: 14,
+      center: BlackSheepCoffee
+    });
+
+    var marker = new google.maps.Marker({
+      position: BlackSheepCoffee,
+      map: map
+    });
+    }
+  </script>
+
 </body>
 </html>
