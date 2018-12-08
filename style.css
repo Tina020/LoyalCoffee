@@ -49,7 +49,7 @@ border-color: #b62f26;
 body {
   text-align: center;
   background:#eee;
-  background-image:url('coffeeshop.jpg');
+  background-image:url('images/coffeeshop.jpg');
   background-size:cover;
 }
 .container {
