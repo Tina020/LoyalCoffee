@@ -1,0 +1,104 @@
+@font-face {
+  font-family: Pirmokas;
+  src: url('./fonts/Pirmokas.ttf');
+}
+.btn-twitter {
+background: #00acee;
+border-color: #009ad5;
+}
+.btn-facebook {
+background: #4868ac;
+border-color: #314776;
+}
+.btn-instagram {
+background: #FF1493;
+border-color: #C71585;
+}
+.btn-pinterest {
+background: #b62f26;
+border-color: #b62f26;
+}
+.points img{
+  height: 20px;
+  width: 20px;
+}
+.first {
+  margin-top: 40px;
+}
+@media (min-width: 768px) {
+  .first .form-inline .form-control {
+      width: 300px;
+  }
+}
+.second img{
+  height: 100px;
+  width: 100px;
+}
+.first a{
+  color: grey;
+}
+.third a{
+  color: white;
+}
+.third {
+  padding-bottom: 10px;
+}
+.jumbotron {
+  padding-top: 10px;
+}
+body {
+  text-align: center;
+  background:#eee;
+  background-image:url('images/coffeeshop.jpg');
+  background-size:cover;
+}
+.container {
+  background: rgba(255,255,255,0.7);
+  margin: 20px auto 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius:10px;
+}
+.dropdown {
+  position: fixed;
+  top:0;
+  right: 0;
+}
+#dropdownMenu1 {
+  font-size: 1.25em;
+}
+table, th, td {
+    text-align: center;
+}
+.table {
+  width: auto;
+  margin: 0 auto 20px;
+}
+.table tbody tr td {
+  vertical-align: middle
+}
+.table img {
+  max-width: 60px
+}
+.table img.coffee {
+   width: 60px;
+   height: 60px;
+}
+h1 {
+  font-family: Pirmokas;
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+.monmouth img {
+  height: auto;
+  width: 170px;
+  margin-top: 40px;
+}
+#LClogo {
+  height: 120px;
+  width: 80px;
+}
+#map {
+  height: 450px;
+  width: 100%;
+}
