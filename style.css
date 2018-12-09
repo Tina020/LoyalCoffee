@@ -106,3 +106,7 @@ h1 {
   height: 200px;
   width: 150px;
 }
+
+.login .checkbox {
+  text-align: left;
+}
