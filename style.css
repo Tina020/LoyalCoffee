@@ -25,11 +25,18 @@ border-color: #b62f26;
 .first {
   margin-top: 40px;
 }
-@media (min-width: 768px) {
+@media (min-width: 300px) {
   .first .form-inline .form-control {
       width: 300px;
+      display: inline-block;
+      margin-bottom: 5px;
   }
 }
+@media screen and (max-width:400px) {
+  .column{width: 50%;}
+}
+
+
 .second img{
   height: 100px;
   width: 100px;
@@ -102,11 +109,6 @@ h1 {
   height: 450px;
   width: 100%;
 }
-<<<<<<< HEAD
-#wrapper img {
-  height: 250px;
-  width: 200px;
-=======
 #wrapper img{
   height: 200px;
   width: 150px;
@@ -114,5 +116,4 @@ h1 {
 
 .login .checkbox {
   text-align: left;
->>>>>>> 7a2c33fd170c65cf0861e4a502e8c001b0d72e1b
 }
