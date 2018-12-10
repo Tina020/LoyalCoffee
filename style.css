@@ -48,7 +48,10 @@ border-color: #b62f26;
   color: white;
 }
 .third {
-  padding-bottom: 10px;
+  padding-bottom: 15px;
+}
+.third button {
+  margin: 3px;
 }
 .jumbotron {
   padding-top: 10px;
