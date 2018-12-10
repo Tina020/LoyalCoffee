@@ -102,7 +102,17 @@ h1 {
   height: 450px;
   width: 100%;
 }
+<<<<<<< HEAD
 #wrapper img {
   height: 250px;
   width: 200px;
+=======
+#wrapper img{
+  height: 200px;
+  width: 150px;
+}
+
+.login .checkbox {
+  text-align: left;
+>>>>>>> 7a2c33fd170c65cf0861e4a502e8c001b0d72e1b
 }
